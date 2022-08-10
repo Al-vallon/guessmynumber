@@ -21,7 +21,12 @@ h1{
     align-items: center;
     margin: 0 20vw;
 }
-
+.wrap-score{
+    text-align: center;
+}
+.wrap-highscore{
+    text-align: center;
+}
 .highscore{
     text-align: center;
     margin-bottom: 5em;
@@ -34,6 +39,13 @@ h1{
 .rules{
     text-align: center;
     margin-top: 5em;
+}
+.guess{
+    width: 4em;
+    height: 4em;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5%;
 }
 .message{
     margin-top: 1em;
@@ -55,5 +67,9 @@ h1{
     margin-left: 6em;
 }
 .win{
+    display: none;
+}
+
+.loose{
     display: none;
 }

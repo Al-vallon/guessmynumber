@@ -12,7 +12,10 @@ body{
 }
 h1{
     text-align: center;
-    margin-bottom: 5em;
+}
+
+h2{
+    margin: 150px;
 }
 .wrapper{
     display: flex;
@@ -20,6 +23,13 @@ h1{
     justify-items: center;
     align-items: center;
     margin: 0 20vw;
+}
+
+.up{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .wrap-score{
     text-align: center;
@@ -64,7 +74,6 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 6em;
 }
 .win{
     display: none;
@@ -73,3 +82,8 @@ h1{
 .loose{
     display: none;
 }
+
+.hello{
+    text-align: center;
+}
+

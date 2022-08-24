@@ -4,7 +4,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
     let secretNumber = Math.trunc(Math.random()*20) +1;
     let scoredec = 10;
     let highscoredec = 10;
-    console.log(secretNumber);
+    // console.log(secretNumber);
 
     const win = document.querySelector('.win');
     const loose = document.querySelector ('.loose');
